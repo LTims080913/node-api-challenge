@@ -12,3 +12,11 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+const server = require('./server')
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 5050
+}
+
+server.listen(port, () => console.log(`\n === API is running on port ${port} === \n`))
