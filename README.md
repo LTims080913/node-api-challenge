@@ -40,18 +40,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    This week we learned that Express is a web framework that allows you to structure a web application and handle multiple, yet different, HTTP requests at a specific URL. It utilizes middleware and resources. 
+
 - [ ] Describe Middleware?
+
+    MIddleware is software that a developer can write to carryout certain functinos desired that are notinitially available from the operating system.
 
 - [ ] Describe a Resource?
 
+    A resourse is what Express uses to extend functionality.
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+    An API can return a status code of 200 to let the user know that the request was successful.
 
 - [ ] How can we partition our application into sub-applications?
 
+    We can partition our application into sub-applications by using the router to direct to different areas and keep our code clean as well as DRY.
+
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
