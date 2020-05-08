@@ -13,7 +13,7 @@ server.get('/', (req, res) => {
 })
 
 server.use('/api/projects', projectRouter)
-// server.use('/api/actions', actionRouter)
+server.use('/api/actions', actionRouter)
 
 function logger(req, res, next) {
     console.log(`[${new Date().toISOString()}] ${req.method} to ${req.url} from ${req.get('Origin')}`);
