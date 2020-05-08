@@ -16,12 +16,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [x] Create a forked copy of this project.
+- [x] Add your _Team Lead_ as collaborator on Github.
+- [x] Clone your forked version of the Repository.
+- [x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -38,23 +38,23 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
     This week we learned that Express is a web framework that allows you to structure a web application and handle multiple, yet different, HTTP requests at a specific URL. It utilizes middleware and resources. 
 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 
     MIddleware is software that a developer can write to carryout certain functinos desired that are notinitially available from the operating system.
 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 
-    A resourse is what Express uses to extend functionality.
+    A resourse is what Express uses to extend functionality turning it into a "good" API using the RESTful API model.
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] What can the API return to help clients know if a request was successful?
 
     An API can return a status code of 200 to let the user know that the request was successful.
 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 
     We can partition our application into sub-applications by using the router to direct to different areas and keep our code clean as well as DRY.
 
